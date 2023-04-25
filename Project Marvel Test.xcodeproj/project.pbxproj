@@ -99,9 +99,13 @@
 		33C3F4E429F812DF002FDF37 /* Project Marvel Test */ = {
 			isa = PBXGroup;
 			children = (
+				33C3F51929F813A2002FDF37 /* handles */,
+				33C3F51829F81399002FDF37 /* services */,
+				33C3F51729F81389002FDF37 /* favorites */,
+				33C3F51629F81371002FDF37 /* hqs */,
+				33C3F51529F8134B002FDF37 /* login */,
 				33C3F4E529F812DF002FDF37 /* AppDelegate.swift */,
 				33C3F4E729F812DF002FDF37 /* SceneDelegate.swift */,
-				33C3F4E929F812DF002FDF37 /* ViewController.swift */,
 				33C3F4EB29F812DF002FDF37 /* Main.storyboard */,
 				33C3F4EE29F812E2002FDF37 /* Assets.xcassets */,
 				33C3F4F029F812E2002FDF37 /* LaunchScreen.storyboard */,
@@ -125,6 +129,42 @@
 				33C3F50829F812E2002FDF37 /* Project_Marvel_TestUITestsLaunchTests.swift */,
 			);
 			path = "Project Marvel TestUITests";
+			sourceTree = "<group>";
+		};
+		33C3F51529F8134B002FDF37 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				33C3F4E929F812DF002FDF37 /* ViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		33C3F51629F81371002FDF37 /* hqs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hqs;
+			sourceTree = "<group>";
+		};
+		33C3F51729F81389002FDF37 /* favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = favorites;
+			sourceTree = "<group>";
+		};
+		33C3F51829F81399002FDF37 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		33C3F51929F813A2002FDF37 /* handles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = handles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
